@@ -20,8 +20,8 @@ public class CoinChangingProblem {
     }
 
     public static void main(String[] args) {
-        int coins[] = new int[]{25, 10, 5};
-        int amount = 30;
+        int coins[] = new int[]{1, 2, 5};
+        int amount = 6;
         System.out.println(coinChange(coins, amount));
     }
 }
