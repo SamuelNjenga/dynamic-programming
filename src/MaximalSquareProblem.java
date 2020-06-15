@@ -28,6 +28,7 @@ class MaximumSquareProblem {
                 if (M[i][j] == 1)
                     S[i][j] = Math.min(S[i][j - 1],
                             Math.min(S[i - 1][j], S[i - 1][j - 1])) + 1;
+
                 else
                     S[i][j] = 0;
             }
