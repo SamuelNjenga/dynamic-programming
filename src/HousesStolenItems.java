@@ -34,8 +34,11 @@ class HousesStolenItems
     public static void main (String[] args)
     {
         int hval[] = {6, 7, 1, 3, 8, 2, 4};
+        int hval1[] = {1,2,3,1,1,100};
+        int p = hval1.length;
         int n = hval.length;
         System.out.println("Maximum loot value : " + maxLoot(hval, n));
+        System.out.println("Maximum loot value : " + maxLoot(hval1, p));
     }
 }
 
